@@ -17,7 +17,7 @@
     "regenerator-runtime": "^0.13.9"
   },
   "scripts": {
-    "test": "jest --watchAll --verbose --forceExit --silent",
+    "test": "jest --watchman --verbose --forceExit --silent",
     "start": "serve src"
   },
   "repository": {
