@@ -1,11 +1,15 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
-
+* {
+  color: #3C373Be;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  font-size: 60px;
+  text-align: center;
+  
 }
 
 h2, h3, h4, h5, h6 {
