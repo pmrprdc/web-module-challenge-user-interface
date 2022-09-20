@@ -52,11 +52,14 @@ img {
 
 .content-row div {
   /*======= create a margin propery.  Set the value to 20px */
+  margin: 20px;
+
 }
 
 .container {
   /*======= create a width property. Set the value to 605px */
   margin: 0 auto;
+  width: 605px;
 }
 
 .container header nav a {
@@ -69,13 +72,17 @@ img {
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-  
+  background: #F87B99;
 }
 
 .container header nav a:hover {
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+background: white;
 }
 
+#about {
+  margin-top: 20px;
+}
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
@@ -93,6 +100,9 @@ img {
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
+address {
+  line-height: 2;
+}
 
 footer {
   width: 100%;
@@ -120,6 +130,11 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
+footer a {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
 
 
 footer nav a:first-child {
@@ -130,7 +145,13 @@ footer nav a:first-child {
   color: white;
 */
 
-footer .footer-content .copyright {
+footer a:hover {
+  color: white;
+
+}
+
+footer p {
   padding: 20px 0;
    /*======= center the text here */
+ text-align: center;
 }
